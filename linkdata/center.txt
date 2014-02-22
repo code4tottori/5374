@@ -6,3 +6,4 @@
 #property	名称	休止開始日	休止終了日
 #object_type_xsd	string	string	string
 #property_context	Assertion	Assertion	Assertion
+1
