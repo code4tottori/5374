@@ -1,7 +1,7 @@
 #LINK
 #lang	ja
 #attribution_name	Motoyuki OHMORI
-#license	パブリックドメイン
+#license	http://www.city.tottori.lg.jp/www/contents/1359717059120/index.html
 #file_name	center
 #property	名称	休止開始日	休止終了日
 #object_type_xsd	string	string	string
