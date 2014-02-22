@@ -5,6 +5,6 @@
 #file_name	link_data_test_area_days
 #download_from	http://linkdata.org/work/rdf1s1265i
 #property	センター	可燃	食品トレイ	資源	小型破砕	プラスチック	ペットボトル	古紙類
-#object_type_xsd	string	string	string	string	string	string	string	string
-#property_context	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion
-相生町一～四丁目テスト	XXX	水 土	水	金	金	金	水1 水3	水4
+#object_type_xsd	string	string	string	string	string	string	string	string	string
+#property_context	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion
+1	相生町一～四丁目テスト	XXX	水 土	水	金	金	金	水1 水3	水4
