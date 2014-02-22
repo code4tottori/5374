@@ -1,3 +1,5 @@
+# coding: utf-8
+
 task :default => [:deploy]
 
 # Usage: rake preveiw
@@ -44,3 +46,10 @@ task :fetch do
   fetch('http://linkdata.org/api/1/rdf1s1265i/description.csv')
   fetch('http://linkdata.org/api/1/rdf1s1265i/target.csv')
 end
+
+task :test do
+  sh "cat area_days_headers.tsv > linkdata/area_days.txt"
+  sh "ruby area_days.rb | sed -e '1,4d' >> linkdata/area_days.txt"
+end
+
+

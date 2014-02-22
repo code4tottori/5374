@@ -1,0 +1,8 @@
+#LINK
+#lang ja
+#attribution_name Shin Osaki
+#license  http://www.city.tottori.lg.jp/www/contents/1359717059120/index.html
+#file_name  area_days
+#property 地名 センター 可燃 食品トレイ 資源 小型破砕 プラスチック ペットボトル 古紙類
+#object_type_xsd string string string string string string string string string
+#property_context Assertion Assertion Assertion Assertion Assertion Assertion Assertion Assertion Assertion
