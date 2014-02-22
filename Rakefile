@@ -45,7 +45,6 @@ end
 task :fetch do
   fetch('http://linkdata.org/api/1/rdf1s1265i/area_days.csv')
   fetch('http://linkdata.org/api/1/rdf1s1265i/center.csv')
-
-  # fetch('http://linkdata.org/api/1/rdf1s1265i/description.csv')
+  fetch('http://linkdata.org/api/1/rdf1s1265i/description.csv')
   # fetch('http://linkdata.org/api/1/rdf1s1265i/target.csv')
 end

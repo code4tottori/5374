@@ -1,5 +1,9 @@
 label,sublabel,description,styles,bgcolor
-燃やさないごみ,,,img/moyasanai02.svg,#733b96
+可燃,,,img/moyasu02.svg,#ea3b13
+プラスチック,,img/shigen02.svg,#77ae1f,
 資源,,,img/shigen02.svg,#77ae1f
-燃やすごみ,,,img/moyasu02.svg,#ea3b13
+食品トレイ,,img/shigen02.svg,#81d12e,
+ペットボトル,,img/shigen02.svg,#27a047,
+古紙類,,img/shigen02.svg,#08b925,
 びん,,,img/bin02.svg,#2dc7aa
+小型破砕,,img/bin02.svg,#91dde7,
