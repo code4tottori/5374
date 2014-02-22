@@ -18,12 +18,10 @@ end
 
 
 def fetch(url)
-	p url
   require 'csv'
   require 'open-uri'
   headers = nil
   records = []
-
   csv = CSV.new(open(url), headers: :first_row)
   csv.each do |line|
     headers = csv.headers if headers.nil?
@@ -32,14 +30,12 @@ def fetch(url)
     records << fields
   end
   headers.shift
-
   CSV.open(File.join('data', File.basename(url)), 'w') do |writer|
     writer << headers
     records.each do |record|
       writer << record
     end
   end
-
 end
 
 task :fetch do
