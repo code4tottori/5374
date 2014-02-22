@@ -1,6 +1,6 @@
 label,sublabel,description,styles,bgcolor
-可燃,,,img/moyasu02.svg,#ea3b13
-プラスチック,,,img/pla02.svg,#77ae1f
+可燃,,,,#ea3b13
+プラスチック,,,,#77ae1f
 資源,,,,#77ae1f
 食品トレイ,,,,#81d12e
 ペットボトル,,,,#27a047
