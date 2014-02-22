@@ -43,7 +43,7 @@ def fetch(url)
 end
 
 task :fetch do
-  fetch('http://linkdata.org/api/1/rdf1s1265i/are_days.csv')
+  fetch('http://linkdata.org/api/1/rdf1s1265i/area_days.csv')
   fetch('http://linkdata.org/api/1/rdf1s1265i/center.csv')
 
   # fetch('http://linkdata.org/api/1/rdf1s1265i/description.csv')

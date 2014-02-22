@@ -6,7 +6,11 @@
 #property	label	sublabel	description	styles	bgcolor
 #object_type_xsd	string	string	string	string	string
 #property_context	Assertion	Assertion	Assertion	Assertion	Assertion
-1	燃やさないごみ			img/moyasanai02.svg	#733b96
-2	資源			img/shigen02.svg	#77ae1f
-3	燃やすごみ			img/moyasu02.svg	#ea3b13
-4	びん			img/bin02.svg,#2dc7aa
+1	可燃			img/moyasu02.svg	#ea3b13
+2	プラスチック		img/shigen02.svg	#77ae1f
+3	資源			img/shigen02.svg	#77ae1f
+4	食品トレイ		img/shigen02.svg	#81d12e
+5	ペットボトル		img/shigen02.svg	#27a047
+6	古紙類		img/shigen02.svg	#08b925
+7	びん			img/bin02.svg	#2dc7aa
+8	小型破砕		img/bin02.svg	#91dde7
