@@ -21,7 +21,7 @@ def convert_date (line)
 end
 
 def export cities
-  cities.each { |city|
+  cities.each_with_index { |city,i|
     str = NKF.nkf('-m0Z1 -w', city.children.text.strip.gsub("・"," ")).gsub(/[\u00A0]/, '')
     str = convert_date(str)
     return if city.css("a").length > 0

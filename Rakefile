@@ -49,7 +49,7 @@ end
 
 task :test do
   sh "cat area_days_headers.tsv > linkdata/area_days.txt"
-  sh "ruby area_days.rb | sed -e '1,4d' >> linkdata/area_days.txt"
+  sh "ruby1.9 area_days.rb | sed -e '1,4d' | ruby1.9 add_no.rb >> linkdata/area_days.txt"
 end
 
 
