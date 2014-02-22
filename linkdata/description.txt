@@ -1,0 +1,12 @@
+#LINK
+#lang	ja
+#attribution_name	Motoyuki OHMORI
+#license	パブリックドメイン
+#file_name	description
+#property	label	sublabel	description	styles	bgcolor
+#object_type_xsd	string	string	string	string	string
+#property_context	Assertion	Assertion	Assertion	Assertion	Assertion
+1	燃やさないごみ			img/moyasanai02.svg	#733b96
+2	資源			img/shigen02.svg	#77ae1f
+3	燃やすごみ			img/moyasu02.svg	#ea3b13
+4	びん			img/bin02.svg,#2dc7aa
